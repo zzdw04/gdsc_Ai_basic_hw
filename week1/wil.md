@@ -21,7 +21,7 @@
 > Data, Model, Loss Fuction
 - Data는 학습데이터, 검증데이터, 테스트데이터로 나누어 사용
 - Model은 input을 우리가 원하는 output으로 바꾸기 위한 것
-- Loss Fuction을 통해 예측값과 실제값의 오차를 구하고 이를 모델에 반영한  
+- Loss Fuction을 통해 예측값과 실제값의 오차를 구하고 이를 모델에 반영
 회귀문제의 경우 MSE를 사용하고, 분류문제는 cross-entropy 함수를 사용
 
 
