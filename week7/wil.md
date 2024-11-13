@@ -26,7 +26,7 @@ CNN과 resize 순서를 바꿔
 분류기로 SVM -> linear,  CNN에서 fc-layer는 안씀
 convNet 이후 feature map을 뽑아 ROI pooling 하여 객체를 구분
 - ROI pooling  
-wraping 과정에서의 데이터 손실 -> 성능 저하
+wraping 과정에서의 데이터 손실 -> 성능 저하  
 적당히 구역을 나누고 그 구역에서 pooling을 진행 
 ex) 8x8 -> 4x4 4개로 쪼개고 한 구역당 pooling -> 2x2를 얻을 수 있다.
 
